@@ -2,12 +2,12 @@
 #include "8080func.h"
 
 typedef struct ConditionCodes {    
-    uint8_t    z:1; //zero 
-    uint8_t    s:1; //sign
-    uint8_t    p:1; //parity
-    uint8_t    cy:1; //carry
-    uint8_t    ac:1; //auxiliary carry
-    uint8_t    pad:3; //padding
+    uint8_t    z:1;     //zero 
+    uint8_t    s:1;     //sign
+    uint8_t    p:1;     //parity
+    uint8_t    cy:1;    //carry
+    uint8_t    ac:1;    //auxiliary carry
+    uint8_t    pad:3;   //padding
 } ConditionCodes;
 
 typedef struct State8080 { 
